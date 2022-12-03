@@ -15,8 +15,14 @@ Pandas (Python for Data Analysis) adalah library Python yang fokus untuk proses 
 
 ## Prequisites
 - **Pandas**
+  
   Install library :
   ```
   pip install pandas
+  ```
+  
+  Import Library :
+  ```
+  import pandas as pd
   ```
   
