@@ -5,3 +5,10 @@
 </p>
 
 Pandas (Python for Data Analysis) adalah library Python yang fokus untuk proses analisis data seperti manipulasi data, persiapan data, dan pembersihan data.
+
+### Content
+  - Creating,Reading,Writing
+  - Indexing,selecting,assigning
+  - Summary Function
+  - Grouping & Sorting
+  - Datatypes & Renaming
