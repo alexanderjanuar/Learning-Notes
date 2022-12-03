@@ -12,3 +12,11 @@ Pandas (Python for Data Analysis) adalah library Python yang fokus untuk proses 
 - Summary Function
 - Grouping & Sorting
 - Datatypes & Renaming
+
+## Prequisites
+- **Pandas**
+  Install library :
+  ```
+  pip install pandas
+  ```
+  
