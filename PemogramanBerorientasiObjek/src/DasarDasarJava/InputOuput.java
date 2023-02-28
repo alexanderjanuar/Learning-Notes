@@ -24,7 +24,7 @@ public class InputOuput {
 
     static void bufferedReader() {
         InputStreamReader inputStream = new InputStreamReader(System.in);
-        BufferedReader bufferedReader = new BufferedReader(inputStream);
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         int value = 0;
         int anotherValue = 0;

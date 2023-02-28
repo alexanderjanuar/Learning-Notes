@@ -4,6 +4,8 @@
  */
 package DasarDasarJava;
 
+import static DasarDasarJava.Perulangan.*;
+
 /**
  *
  * @author USER
@@ -66,6 +68,6 @@ public class Percabangan {
     }
 
     public static void main(String[] args) {
-        ifelse();
+        DoWhile();
     }
 }
