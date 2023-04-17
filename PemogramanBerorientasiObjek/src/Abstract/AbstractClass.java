@@ -8,9 +8,12 @@ package Abstract;
  *
  * @author USER
  */
-abstract class Hewan {
-   private String nama;
+//Parent
 
+//1. Menurunkan fungsi yang harus ditetapkan ke child class
+//2. Gak bisa diinstansiasi
+abstract class Hewan {
+   String nama;
    public Hewan(String nama) {
       this.nama = nama;
    }
@@ -18,15 +21,14 @@ abstract class Hewan {
    public String getNama() {
       return nama;
    }
+   abstract void bersuara();
 
-   public abstract void bersuara();
-}
-
+//Child Class
 class Anjing extends Hewan {
    public Anjing(String nama) {
       super(nama);
    }
-
+   @Override
    public void bersuara() {
       System.out.println("Guk guk!");
    }
@@ -43,15 +45,15 @@ class Kucing extends Hewan {
 }
 
 public class AbstractClass {
-   public static void main(String[] args) {
-      Hewan anjingSaya = new Anjing("Rover");
-      Hewan kucingSaya = new Kucing("Whiskers");
+   public static void main(String[] args) {}
+   
+   
+   
+   
+}}
+   
 
-      System.out.println(anjingSaya.getNama() + ": ");
-      anjingSaya.bersuara();
+      
+   
 
-      System.out.println(kucingSaya.getNama() + ": ");
-      kucingSaya.bersuara();
-   }
-}
 
