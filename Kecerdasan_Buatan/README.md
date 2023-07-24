@@ -1,2 +1,0 @@
-# Kecerdasan_Buatan
- 
