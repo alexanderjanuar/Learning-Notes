@@ -37,9 +37,10 @@ class HandTrack():
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 lmlist.append([ID,cx,cy])
                 if draw:
-                    cv2.circle(img = img, center = (cx,cy), radius = 10, color = (255,0,255), thickness = cv2.FILLED)
+                    cv2.circle(img = img, center = (cx,cy), radius = 5, color = (255,0,255), thickness = cv2.FILLED)
 
         return lmlist
+
 cap = cv2.VideoCapture(0)
 pTime = 0
 cTime = 0
